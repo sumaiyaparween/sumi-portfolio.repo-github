@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     background: linear-gradient(rgb(209, 70, 70), rgb(57, 83, 57), rgb(214, 183, 183));
+    color: rgb(168, 187, 202);
+    font-family: 'Robot', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(pink, rgb(207, 207, 133));
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 40px;
+    text-decoration: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(60, 56, 56);
+}
+
+nav ul li a:hover {
+    color: rgb(120, 39, 39);
+    font-size: 1.1rem;
+}
+
+main hr {
+    border: 0;
+    height: 1.3px;
+    background-color: #c8c8d5;
+    margin: 50px 83px;
+
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 150px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+
+}
+
+.leftsection button{
+    padding: 9px;
+    margin: 10px;
+    background-color: rgb(145, 217, 180);
+    border: 2px solid #0e0c0c;
+    border-radius: 5px;
+    
+}
+/* .leftsection btn{
+
+} */
+
+.rightsection img {
+    width: 350px;
+    margin: 50px 0;
+   
+}
+
+.text-purple {
+    color: rgb(195, 195, 11);
+}
+
+.text-grey {
+    color: rgb(168, 62, 62);
+}
+
+#element {
+    color: rgb(189, 189, 34);
+}
+
+.secondsection {
+    max-width: 70vw;
+    height: 80vh;
+    margin: auto;
+}
+
+.secondsection h1 {
+    font-size: 1.6;
+}
+
+.secondsection .box {
+    background: white;
+    width: 76vw;
+    height: 2px;
+    margin: 57px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 100px;
+    width: 1px;
+    background-color: rgb(229, 217, 217);
+    margin: 0 130px;
+}
+
+.image-top {
+    display: flex;
+    width: 48px;
+    position: relative;
+    margin-top: -33px;
+    margin-left: -22px;
+    height: 28px;
+
+}
+
+.vertical-content {
+    display: flex;
+    position: relative;
+    width: 152px;
+    top: 76px;
+    font-size: 15px;
+    margin-top: 30px;
+    color: rgb(19, 19, 22);
+}
+
+.vertical-text {
+    display: flex;
+    position: relative;
+    top: 88px;
+    color: rgb(182, 171, 12);
+    width: 152px;
+    font-size: 13px;
+   
+}
+
+footer {
+    background: linear-gradient(rgb(211, 57, 91), rgb(186, 186, 69));
+    padding-bottom: 2px;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+footer ul {
+    list-style: none;
+}
+.footer-text{
+    text-align: center;
+    color: rgb(83, 76, 76);
+    padding: 14px 0;
+}
